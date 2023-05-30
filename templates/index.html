@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>OCR Platform</h1>
+        <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    
+    
+    <div class="footer">
+      <a href="https://www.github.com/hakunamatata1997" target="_blank">
+          <img src="{{ url_for('static', filename='github-logo.png') }}" alt="GitHub" class="logo" id="github-logo">
+      </a>
+      <a href="https://www.linkedin.com/in/theakhilb" target="_blank">
+          <img src="{{ url_for('static', filename='linkedin-logo.png') }}" alt="LinkedIn" class="logo" id="linkedin-logo">
+      </a>
+   </div>
+   
+   <script>
+	const numStars = 100; // Number of stars to create
+	const starColors = ['#ffec00', '#00ffaa', '#ff00aa']; // Array of star colors
+
+	for (let i = 0; i < numStars; i++) {
+	  const star = document.createElement('div');
+	  star.classList.add('star');
+	  star.style.top = `${Math.random() * 100}vh`;
+	  star.style.left = `${Math.random() * 100}vw`;
+	  star.style.backgroundColor = starColors[Math.floor(Math.random() * starColors.length)]; // Assign random color from the starColors array
+	  star.style.animationDelay = `${Math.random() * 10}s`; // Add random animation delay
+	  document.body.appendChild(star);
+	}
+
+   </script>
+   
+   	
+</body>
+</html>
+

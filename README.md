@@ -9,7 +9,7 @@
 
 #  Download and extract this repo and run the below commands:
     
-#     ```pip install requirements.txt```
+#     ```pip install -r requirements.txt```
 #     ```python app.py```
 
 

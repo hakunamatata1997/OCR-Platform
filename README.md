@@ -4,5 +4,13 @@
 
 # Technologies Used: HTML,CSS,JS,Python,Flask,Tesseract
 
+# To run it in your system:
+#  Requirements: Python,Flask,Pytesseract
+
+#  Download and extract this repo and run the below commands:
+    
+#     ```pip install requirements.txt```
+#     ```python app.py```
+
 
 # For any queries: theakhilkumarb@gmail.com

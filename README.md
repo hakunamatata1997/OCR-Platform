@@ -12,5 +12,12 @@
 #     ```pip install -r requirements.txt```
 #     ```python app.py```
 
+# Main Web View:
+![Main View](https://github.com/hakunamatata1997/OCR-Platform/blob/master/Results/main.png)
+
+
+# Results Page:
+![extracted text](https://github.com/hakunamatata1997/OCR-Platform/blob/master/Results/result.png)
+
 
 # For any queries: theakhilkumarb@gmail.com

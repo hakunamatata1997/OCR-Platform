@@ -20,4 +20,6 @@
 ![extracted text](https://github.com/hakunamatata1997/OCR-Platform/blob/master/Results/result.png)
 
 
+## Visit website live at : https://hakunamatata1997.pythonanywhere.com
+
 ## For any queries: theakhilkumarb@gmail.com
